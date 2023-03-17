@@ -5,14 +5,14 @@
 #### 5.It considers buy and sell conditions in strategyBuy and strategySell functions respectively 
 #### 6.places a buy or sell order if condition is true.
 
-#### The trading bot connects to the Binance API via Websocket long-lived connection
+#### .The trading bot connects to the Binance API via Websocket long-lived connection
 ![](JPG/ws.JPG)
-#### Store OHLCV data in the Pandas Dataframe and continuously update it
+#### .Stores OHLCV data in the Pandas Dataframe and continuously updates it
 ![](JPG/df.JPG)
-#### Calculate indicators such as Relative Strength Index (RSI) values, Simple Moving Average (SMA)
+#### .Calculates indicators such as Relative Strength Index (RSI) values, Simple Moving Average (SMA)
 #### Display indicators on candlestick chart with marks where buy and sell conditions are True
 ![](JPG/data_chart.png)
-#### Place a buy or sell order if condition is true
+#### .Place a buy or sell order if condition is true
 #### Display the real trades on candlestick chart 
 ![](JPG/trade_chart.JPG)
 #### where marks shows the exact values and exact location of a trade
