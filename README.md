@@ -10,10 +10,10 @@
 #### .Stores OHLCV data in the Pandas Dataframe and continuously updates it
 ![](JPG/df.JPG)
 #### .Calculates indicators such as Relative Strength Index (RSI) values, Simple Moving Average (SMA)
-#### Display indicators on candlestick chart with marks where buy and sell conditions are True
+#### Display indicators on candlestick chart with marks where buy and sell conditions are True using mplfinance
 ![](JPG/data_chart.png)
 #### .Place a buy or sell order if condition is true
 #### Display the real trades on candlestick chart 
 ![](JPG/trade_chart.JPG)
-#### where marks shows the exact values and exact location of a trade
+#### where marks shows the exact price and exact location of a trade
 ![](JPG/zoom_chart.png)
